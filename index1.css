@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+body {
+    background-color: rgb(241, 218, 218);
+}
+
+h1 {
+    text-align: center;
+}
+a {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}
+.containers {
+    margin: 30px auto;
+    width: max-content;
+  
+}
+.containers .case {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    /* margin: 50px 30px 0; */
+    /* background-color: rgb(32, 55, 104); */
+    /* position: relative;
+    top: 300px; */
+}
+
+.containers .case1 {
+    animation: case1 1500ms infinite alternate running;
+    transform: skew(-22deg);
+    background-color: rgb(146, 52, 149);
+}
+@keyframes case1 {
+    100% {
+        transform: skew(22deg);
+    }
+}
+.containers .case2 {
+    background-color: rgb(24, 67, 92);
+    animation: case2 1500ms infinite alternate running;
+    transform: skew(11deg, -22deg);
+}
+@keyframes case2 {
+    100% {
+        transform: skew(11deg, 22deg);
+    }
+}
+.containers .case3 {
+    animation: case3 3000ms infinite running;
+    background-color: rgb(119, 133, 39);
+}
+@keyframes case3 {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.containers .case3 {
+    animation: case3 1500ms infinite running;
+}
+@keyframes case3 {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.containers .case4 {
+    animation: case4 1500ms infinite alternate running;
+    background-color: rgb(122, 49, 86);
+}
+@keyframes case4 {
+    100% {
+        height: 55px;
+    }
+}
+.containers .case5 {
+    background-color: rgb(82, 47, 19);
+    animation: case5 1500ms infinite alternate running;
+}
+@keyframes case5 {
+    100% {
+        width: 55px;
+    }
+}
+.containers .case6 {
+    background-color: rgb(71, 34, 139);
+    animation: case6 1500ms infinite alternate running;
+}
+@keyframes case6 {
+    100% {
+        transform: rotate(-90deg);
+    }
+}

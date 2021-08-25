@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading {
+    text-align: center;
+    font-size: 25px;
+
+}
+.span1{
+background-color: orange;
+}
+.span2{
+   background-color: #fff; 
+}
+.span3{
+    background-color: green;
+}
+.img1{
+    height: 30px;
+    position: absolute;
+    top: 496px;
+    left: 795px;
+}
+body{
+    overflow: hidden;
+    /* border-right: 10px solid orange; */
+    /* animation: shakebody linear 6s infinite; */
+}
+/* .bord{
+    border-left: 10px solid rgb(243, 160, 7);
+} */
+.sky{
+    height: 100vh;
+    width: 100%;
+    background-image: url(sky.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    /* border-left: 10px solid orange; */
+    /* border-right: 50px solid green; */
+}
+
+.city{
+    height: 80vh;
+    width: 100%;
+    background-image: url(city.png);
+    /* background-size: cover;  */
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 310px; 
+    /* border-left: 10px solid orange; */
+    /* border-right: 20px solid green; */
+}
+.road{
+    height: 60vh;
+    width: 800vw;
+    background-image: url(road.jpg);
+    background-repeat: repeat-x; 
+    position: absolute;
+    top: 70vh;
+    animation: carMove linear 13s infinite;
+    /* border-left: 10px solid orange; */
+    /* border-right: 10px solid green; */
+
+}
+
+.car{
+    height: 100px;
+    width: 380px;
+    background-image: url(./car.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 444px;
+    bottom:30vh;
+    animation: shake linear 3s infinite;
+
+}
+
+
+.wheel1 img{
+    width: 65px;
+    position: relative;
+    top:75px;
+    left:35px;
+    animation: wheelRotation linear .14s infinite;
+}
+
+
+.wheel2 img{
+    width: 65px;
+    position: relative;
+    top: 5px;
+    left: 268px;
+    animation: wheelRotation linear .14s infinite;
+
+}
+
+@keyframes wheelRotation
+{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes carMove
+{
+    100%{
+        transform: translateX(-600vw);
+    }
+}
+
+@keyframes shake
+{
+    0%{
+        transform: translateY(-3px);
+    }
+    50%{
+        transform: translateY(3px);
+    }
+    100%{
+        transform: translateY(-3px);
+    }
+}
+/* @keyframes shakebody
+{
+    0%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(50px);
+    }
+    100%{
+        transform: translateY(-50px);
+    }
+} */
+
+/* CSS OF INDEX2.HTML*/
+
+.child{
+    height: 80px;
+    width: 100px;
+    font-size: 17px;
+    background-color: rgb(167, 243, 218);
+    box-sizing: border-box;
+    margin: 15px;
+    padding: 15x;
+    background-size: cover;
+  
+}
+.ol{
+    /* height: 1500px; */
+    position: absolute;
+    left: 630px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    font-weight: bolder;
+}
+body {
+    background-color: rgb(216, 182, 127);
+}
+
+.container .child1 {
+    transition: width 1s;
+}
+.child1:hover {
+    width: 400px;
+}
+.child2 {
+    transition: width 900ms 900ms, height 1s 1s;
+}
+.child2:hover {
+    width: 400px;
+    height: 400px;
+}
+.child3 {
+    transition: width 1000ms linear;
+}
+.child3:hover {
+    width: 400px;
+}
+.child4 {
+    transition: width 1000ms ease;
+}
+.child4:hover {
+    width: 400px;
+}
+.child5 {
+    transition: width 1000ms ease-in;
+}
+.child5:hover {
+    width: 400px;
+}
+.child6 {
+    transition: width 1000ms ease-out;
+}
+.child6:hover {
+    width: 400px;
+}
+.child7 {
+    transition: width 1000ms ease-in-out;
+}
+.child7:hover {
+    width: 400px;
+}
+.a1{
+  position: relative;
+  top: 680px;
+  left: 600px;
+}
+.a2{
+    position: relative;
+    top: 680px;
+    left: 720px;
+}
+.a5{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+/* CSS OF INDEX2.HTML */
+
+
